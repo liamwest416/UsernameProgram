@@ -1,28 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-// Created Feb. 11 2016
-
 namespace UsernameProgram
 {
-    public partial class Form1 : Form
+    public partial class SecondPage : UserControl
     {
-        public Form1()
+        public SecondPage()
         {
             InitializeComponent();
-
-            MainPage mp = new MainPage();
-            this.Controls.Add(mp);
-
-            Form f = this.FindForm();
-            f.Controls.Remove(this);
         }
     }
 }
